@@ -1,8 +1,10 @@
 **Project Overview:**
 This project focuses on hierarchical text classification using Amazon product reviews. The goal is to classify reviews into three hierarchical categories: cat1, cat2, and cat3. We have implemented two different solutions to achieve this:
 
-**Multiple Machine Learning Classifiers:** This approach involves predicting each category separately using distinct machine learning models.
-**HiClass Library with SVM Classifier:** This method leverages the HiClass library combined with a Support Vector Machine (SVM) to predict all three hierarchical categories simultaneously.
+**Multiple Machine Learning Classifiers:** 
+This approach involves predicting each category separately using distinct machine learning models.
+**HiClass Library with SVM Classifier:** 
+This method leverages the HiClass library combined with a Support Vector Machine (SVM) to predict all three hierarchical categories simultaneously.
 
 **Dataset:**
 The dataset used in this project consists of Amazon product reviews. Each review is labeled with three hierarchical categories: cat1, cat2, and cat3. These categories represent a multi-level classification problem where each level is dependent on the previous one.
